@@ -186,8 +186,7 @@ When the bot receives input from the battleground it takes those player and bull
 it into a map that is relative to the bots position and direction, so the bot is the center of the world
 and everything else moves/rotates around it.
 
-This is so that the bot can learn quicker, as it can learn that if a bullet is heading towards it.
-from the right it needs to move forward or backward to dodge it etc.
+This is so that the bot can learn quicker, as it can learn that if a bullet is heading towards it from the right it needs to move forward or backward to dodge it etc.
 
 If the bot neural network just took in the raw data it would take a lot longer to learn as the bots 
 decisions would be highly related to it's current position and it would be almost impossible for it 
